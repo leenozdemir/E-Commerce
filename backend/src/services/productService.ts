@@ -8,24 +8,59 @@ export const seedInitialProducts = async () => {
   try {
     const products = [
       {
-        title: "Dell Laptop",
+        title: "Acer HELIOS PH16-72-9467 Gaming Laptop",
         image:
-          "https://m.media-amazon.com/images/I/61+9ew81AfL._AC_UF1000,1000_QL80_.jpg",
-        price: 15000,
+          "/assets/images/Acer-HELIOS-PH16-72-9467-Gaming-Laptop.jpg",
+        price: 3300,
         stock: 10,
       },
       {
-        title: "Asus Laptop",
+        title: "Acer Nitro ANV16-41-R2YV Laptop",
         image:
-          "https://dlcdnwebimgs.asus.com/gain/4cc342ab-c4fa-42a9-8619-a340f6119bec/w800",
-        price: 25000,
+          "/assets/images/Acer-Nitro-ANV16-41-R2YV-Laptop.jpg",
+        price: 1280,
         stock: 20,
       },
       {
-        title: "HP Laptop",
+        title: "Acer Predator Helios 16 Gaming Laptop",
         image:
-          "https://www.hp.com/gb-en/shop/Html/Merch/Images/c06723377_1750x1285.jpg",
-        price: 40000,
+          "/assets/images/Acer-Predator-Helios-16-Gaming-Laptop.jpg",
+        price: 3449,
+        stock: 8,
+      },
+      {
+        title: "Acer Predator Helios Neo 16 Gaming Laptop",
+        image:
+          "/assets/images/Acer-Predator-Helios-Neo-16-Gaming-Laptop.jpg",
+        price: 1899,
+        stock: 8,
+      },
+      {
+        title: "Acer Aspire 3 A315-59-566E Laptop",
+        image:
+          "/assets/images/Acer-Aspire-3-A315-59-566E-Laptop.jpg",
+        price: 699,
+        stock: 10,
+      },
+      {
+        title: "Acer Aspire Lite AL14-31P Laptop",
+        image:
+          "/assets/images/Acer-Aspire-Lite-AL14-31P-Laptop.jpg",
+        price: 480,
+        stock: 20,
+      },
+      {
+        title: "Acer Swift SF14-11-X41L Laptop",
+        image:
+          "/assets/images/Acer-Swift-SF14-11-X41L-Laptop.jpg",
+        price: 1520,
+        stock: 8,
+      },
+      {
+        title: "Acer Swift SF314-43-R9GG Laptop",
+        image:
+          "/assets/images/Acer-Swift-SF314-43-R9GG-Laptop.jpg",
+        price: 800,
         stock: 8,
       },
     ];
