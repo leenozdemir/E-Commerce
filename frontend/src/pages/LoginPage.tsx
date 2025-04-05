@@ -143,17 +143,11 @@ const LoginPage = () => {
               placeholder="Password"
               fullWidth
               required
+              autoComplete="new-password" 
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
                     <Lock sx={{ color: '#999' }} />
-                  </InputAdornment>
-                ),
-                endAdornment: (
-                  <InputAdornment position="end">
-                    <IconButton onClick={togglePasswordVisibility} edge="end">
-                      {showPassword ? <VisibilityOff /> : <Visibility />}
-                    </IconButton>
                   </InputAdornment>
                 ),
                 sx: {

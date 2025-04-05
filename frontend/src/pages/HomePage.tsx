@@ -41,7 +41,7 @@ const HomePage: React.FC = () => {
   }
 
   return (
-    <Container maxWidth="lg" sx={{ mt: 2 }}> {/* Adjust maxWidth to lg for larger page width */}
+    <Container id="laptops-section" maxWidth="lg" sx={{ mt: 2 }}> {/* Adjust maxWidth to lg for larger page width */}
       <Grid container spacing={2}>
         {products.map((product) => (
           <Grid item xs={12} sm={6} md={3} key={product._id}> {/* 4 per row on md screens */}
